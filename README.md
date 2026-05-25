@@ -32,11 +32,11 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 ```
 
-## 📂 data 폴더 생성
-프로젝트 폴더에 data 폴더 생성
+## ⚙️ .env 파일 생성
+프로젝트 폴더에 있는 .env.example 파일을 복사하여 .env 파일을 생성하고 패스워드 등 DBMS 연결 정보 입력
 
 ```bash
-mkdir data
+cp .env.example .env
 ```
 
 ## ▶️ 실행 및 핫 리로드 (Run & Hot Reload)
